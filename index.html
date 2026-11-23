@@ -24,7 +24,8 @@ a{color:var(--accent);text-underline-offset:.19em}
 a:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
 nav{display:flex;flex-wrap:wrap;gap:1.15rem;font-weight:600}
 section{border-top:1px solid var(--line);padding-top:1.75rem;margin-top:2.15rem}
-ul{padding-left:1.35rem;margin:.5rem 0}
+@counter-style publication-number{system:extends decimal;suffix:"  "}
+ol{list-style-type:publication-number;padding-left:2rem;margin:.5rem 0}
 li{margin-bottom:.62rem}
 .venue{color:var(--muted);font-size:.92em}
 .languages{justify-content:flex-end;align-items:center;gap:.15rem;margin:0 0 1.3rem;color:var(--muted)}.languages a{display:inline-flex;min-width:44px;min-height:44px;align-items:center;justify-content:center;border-radius:.45rem;text-decoration:none}.languages a[aria-current="page"]{background:#e2edef;color:var(--ink)}.languages a:hover{text-decoration:underline}
@@ -38,8 +39,8 @@ li{margin-bottom:.62rem}
 </header>
 <section aria-labelledby="publications">
 <h2 id="publications">论文发表</h2>
-<h3>预印本</h3>
-<ul>
+<h3>预印本（9 篇）</h3>
+<ol>
 <li><a lang="en" href="https://arxiv.org/pdf/2611.15002">AI4Plasma I: Data-Efficient Surrogate Modeling of Capacitively Coupled Plasma Fields</a><span class="venue">，<i lang="en">arXiv</i>，2026。</span></li>
 <li><a lang="en" href="https://arxiv.org/pdf/2611.15584">AI4Plasma II: Geometry-Aware Surrogate Modeling for Variable Electrode Gap GEC Plasmas</a><span class="venue">，<i lang="en">arXiv</i>，2026。</span></li>
 <li><a lang="en" href="https://arxiv.org/pdf/2610.39140">Numerical schemes for 1D capacitively coupled plasma fluid simulation</a><span class="venue">，<i lang="en">arXiv</i>，2026。</span></li>
@@ -49,9 +50,9 @@ li{margin-bottom:.62rem}
 <li><a lang="en" href="https://arxiv.org/pdf/2607.15561">Analysis of RCLUPPr: stability, robustness and acceleration</a><span class="venue">，<i lang="en">arXiv</i>，2026。</span></li>
 <li><a lang="en" href="https://arxiv.org/pdf/2605.22274">A unified gas-kinetic wave-particle method for multiscale binary-species gas mixtures</a><span class="venue">，<i lang="en">arXiv</i>，2026。</span></li>
 <li><a lang="en" href="https://arxiv.org/pdf/2605.03479">Harmonic Balance Unified Gas-Kinetic Scheme for Multiscale Periodic Flows</a><span class="venue">，<i lang="en">arXiv</i>，2026。</span></li>
-</ul>
-<h3>期刊论文</h3>
-<ul>
+</ol>
+<h3>期刊论文（12 篇）</h3>
+<ol>
 <li><a lang="en" href="https://arxiv.org/pdf/2412.09787">Unified gas-kinetic scheme for reactive flow with multi-scale transport and chemical non-equilibrium</a><span class="venue">，<i lang="en">Journal of Computational Physics</i>，2026。</span></li>
 <li><a lang="en" href="https://arxiv.org/pdf/2506.12722">Adaptive criterion and modification of wave-particle decomposition in UGKWP method for high-speed flow simulation</a><span class="venue">，<i lang="en">Computers &amp; Fluids</i>，2026。</span></li>
 <li><a lang="en" href="https://arxiv.org/pdf/2412.06546">An efficiency and memory-saving programming paradigm for the unified gas-kinetic scheme</a><span class="venue">，<i lang="en">Computer Physics Communications</i>，2025。</span></li>
@@ -64,11 +65,6 @@ li{margin-bottom:.62rem}
 <li><a lang="en" href="https://arxiv.org/pdf/2206.13824">Unified gas-kinetic wave-particle method for three-dimensional simulation of gas-particle fluidized bed</a><span class="venue">，<i lang="en">Chemical Engineering Journal</i>，2023。</span></li>
 <li><a lang="en" href="https://iris.polito.it/retrieve/e384c433-c73c-d4b2-e053-9f05fe0a1d67/manuscript.pdf">QEEFoam: A Quasi-Eulerian-Eulerian model for polydisperse turbulent gas-liquid flows. Implementation in OpenFOAM, verification and validation</a><span class="venue">，<i lang="en">International Journal of Multiphase Flow</i>，2021。</span></li>
 <li><a lang="en" href="https://www.researchgate.net/profile/Zhan-Chao-Hu/publication/327945796_The_Rayleigh-Benard_convection_in_near-critical_fluids_Influences_of_the_specific_heat_ratio/links/665ec963d59c846ad430243d/The-Rayleigh-Benard-convection-in-near-critical-fluids-Influences-of-the-specific-heat-ratio.pdf">The Rayleigh–Bénard convection in near-critical fluids: Influences of the specific heat ratio</a><span class="venue">，<i lang="en">Numerical Heat Transfer, Part A: Applications</i>，2018。</span></li>
-</ul>
-<h3>会议论文</h3>
-<ul>
-<li><a lang="en" href="https://www.researchgate.net/profile/Yufeng-Wei-5/publication/322710937_Causes_and_Effect_of_Several_Typical_Natural_Disasters_in_China/links/5fb81df4458515b7975a7837/Causes-and-Effect-of-Several-Typical-Natural-Disasters-in-China.pdf">Causes and Effect of Several Typical Natural Disasters in China</a><span class="venue">，<i lang="en">DEStech Transactions on Social Science, Education and Human Science</i>，2018。</span></li>
-<li><a lang="en" href="https://www.researchgate.net/publication/321770612_The_development_and_application_of_CFD_technology_in_mechanical_engineering/fulltext/5a318ca1a6fdcc9b2d4bf7aa/The-development-and-application-of-CFD-technology-in-mechanical-engineering.pdf">The development and application of CFD technology in mechanical engineering</a><span class="venue">，<i lang="en">IOP Conference Series: Materials Science and Engineering</i>，2017。</span></li>
-</ul>
+</ol>
 </section>
 </main></body></html>
